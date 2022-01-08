@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="favicon1.png">
+	<meta charset="utf-8">
+	<title>IOAM-buscar</title>
+	<link rel=”canonical” href=”#”/>
+	<meta name="keywords" content="Peliculas, pelicula, peliculas, estrenos, nueevas, spiderman, marvel, dc, keanu, reeves, proximamente, cine, hd, ver, reseña, puntuacion, cinematografico, cinematografia">
+	<meta name="description" content="Averigua acerca de tus peliculas favoritas, premios, fechas de estreno entre otros datos">
+	<meta name="author" content="Jesus M">
+	<meta name="robots" content="index">
+	<meta name="viewport" content="width=viewport">
+    <script src="https://kit.fontawesome.com/62ea397d3a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<header>
+		<nav class="nav">
+			<ul class="nav-ul">
+				<div class="nav-li-container">
+					<li class="nav-li"><a href="index.html" class="link"><i class="fas fa-home"></i>    Inicio</a></li>
+					<li class="nav-li"><a href="busqueda.html" class="link"><i class="fas fa-search"></i>    Buscar</a></li>
+					<li class="nav-li"><a href="#" class="link"><i class="fas fa-info"></i>    Acerca de</a></li>
+				</div>
+			</ul>
+		<ul class="nav-ul-responsive">
+			<div class="nav-button-responsive-container">
+				<button class="nav-responsive-button" id="menu" >
+
+				 <i class="fas fa-bars"></i></button>
+			</div>
+				<div class="nav-li-responsive-container">
+				<li class="nav-li-responsive"><a href="index.html" class="nav-link"><i class="fas fa-home"></i>    Inicio </a></li>
+				<li class="nav-li-responsive"><a href="busqueda.html" class="nav-link"><i class="fas fa-search"></i>    Buscar </a></li>
+				<li class="nav-li-responsive"><a href="#" class="nav-link"><i class="fas fa-info"></i>     Acerca de </a></li>
+				</div>			
+ 			</ul>
+		</nav>	
+    </header>
+    <div class="container">
+    	<br>
+    	<div class="form-container">
+    		<form class="form">
+    			<input type="text" name="search" id="search"/>
+    			<button id="btn-send">
+    				<i class="fas fa-search"></i>
+    			</button>
+    		</form>
+    	</div>
+    	<div class="info-container">
+    		<div class="poster-res-container">
+    		    <img src="" class="movie-poster" />
+    		    <div class="description">
+    		    	<h2 class="name"></h2> 
+    		    	<p class="genre"></p>
+    		    	<p class="resume info"></p>
+    		    	<p class="awards info"></p>
+    		    	<div class="raiting-container">
+    		    	    <p class="raiting-info">Rating IMDB: <p class="imdbRating raiting-info"></p><p class="emoji"></p></p>
+    		    	</div>  		    
+    		    </div>
+    	    </div>
+    	    <div class="dvd-container">
+        		<p class="info">Duracion: </p>
+   	    	    <p class="run-time info"></p>
+   	        </div>  
+    	    <div class="dvd-container">
+    		   	<p class="info">Fecha de estreno: </p>
+    		    <p class="released info"></p>
+    		   </div>
+    	    	<div class="dvd-container">
+    	    		<p class="info">Actores: </p>
+   		    	    <p class="actors info"></p>
+   		        </div> 
+    	</div>
+    </div>
+    <br><br><br><br>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
